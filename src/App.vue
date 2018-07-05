@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="main">
     <img src="./assets/logo.png">
     <router-link to="/">Go to HelloWorld</router-link>
     <router-link to="/list">Go to TodoList</router-link>
@@ -7,18 +7,10 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-import Component from 'vue-class-component'
-
-@Component({})
-export default class App extends Vue {
-  name = 'App'
-}
-</script>
+<script lang='ts' src="./App.ts" />
 
 <style>
-#app {
+.main {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
